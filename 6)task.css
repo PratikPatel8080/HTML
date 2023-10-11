@@ -1,0 +1,117 @@
+ /* body
+ {
+    margin:0;
+   padding:0;
+ }
+ section
+ {
+    width: 100%;
+    height: 650px;
+    background:url(./img/33.png);
+    background-size: cover;
+    position: relative;
+    overflow:hidden;
+
+ }
+ .overlay
+ {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background:rgba(120, 120, 183, 0.7);
+
+ }
+ body
+ {
+    margin:0;
+   padding:0;
+  
+    width: 100%;
+    height: 650px;
+    background:url(./img/33.png);
+    background-size: cover;
+    background:rgba(0,0,0,0.5) ;
+
+ }                               (EXTRAAAAAAAA)
+ .container {
+   position: relative;
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .container::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 255, 255, 0.5);
+ }
+ 
+ .image {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ 
+ */
+
+
+
+
+ body{ 
+  margin: 0px;
+  padding: 0px;
+}
+.background{
+  /* background: url(./img/first.png);   */
+  /* background: linear-gradient(rgba(91, 61, 173),rgb(66, 22, 133),rgba(3, 3, 121));  */
+   background: linear-gradient(rgba(164, 48, 113, 0.7),rgba(39, 175, 143, 0.7),rgba(220, 207, 21, 0.7)), url(./img/third.png); 
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  height: 700px;
+  width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+     background: url(./img/dt_ps_us_pod3b_968x552.avif); 
+     background: linear-gradient(rgb(203, 175, 175),rgb(227, 149, 149),rgb(138, 138, 162)); 
+    background: linear-gradient(rgba(218, 140, 14, 0.7),rgba(244, 238, 238, 0.7),rgba(16, 127, 42, 0.7)), url(../img/pexels-pixabay-36717.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 500px;
+     width: auto; 
+} */
